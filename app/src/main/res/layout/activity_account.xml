@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/next"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Account">
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="635dp"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/editphonenumber"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="565dp"
+        android:hint="Mobile Number" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="166dp"
+        android:layout_marginBottom="136dp"
+        android:text="Next" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="437dp"
+        android:ems="10"
+        android:hint="Enter Date Of Birth" />
+
+    <RadioButton
+        android:id="@+id/radioMale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="269dp"
+        android:layout_marginBottom="507dp"
+        android:text="Male" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="505dp"
+        android:text="Female" />
+
+
+    <EditText
+        android:id="@+id/editeducation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="362dp"
+        android:hint="Education " />
+
+    <EditText
+        android:id="@+id/edithobbies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="396dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="290dp"
+        android:hint="Hobbies " />
+
+
+
+
+
+
+
+</RelativeLayout>

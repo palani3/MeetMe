@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "231260585984",
+    "firebase_url": "https://ssss-e1cb8.firebaseio.com",
+    "project_id": "ssss-e1cb8",
+    "storage_bucket": "ssss-e1cb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231260585984:android:c5708103cc3209cb",
+        "android_client_info": {
+          "package_name": "com.example.meetme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "231260585984-h2nrrlogd3usa9ln82c8dcr9cegg4646.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTkPkXvbs-xjp7weUN9YcyMsB8nwZUGEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "231260585984-h2nrrlogd3usa9ln82c8dcr9cegg4646.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

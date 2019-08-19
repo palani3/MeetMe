@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Photo">
+
+
+    <Button
+        android:id="@+id/Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="589dp"
+        android:layout_marginRight="152dp"
+        android:layout_marginBottom="94dp"
+        android:text="Save"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/Signout"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="525dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="151dp"
+        android:text="SignOut"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editabout"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="462dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="224dp"
+        android:hint="Tell Me About Your Self " />
+
+
+
+</RelativeLayout>
